@@ -1,0 +1,13 @@
+{
+  "users":[
+    {
+      "id" : 1,
+      "name" : "fName lName",
+      "email" : "test@gmail.com",
+      "dob" :"19-06-2000",
+      "password" : "Test@123",
+      "status" : "active",
+      "token" : "ergthuoikfmhbdbhdf"
+    }
+]
+}
