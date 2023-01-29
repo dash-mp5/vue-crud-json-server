@@ -5,7 +5,7 @@
       "name" : "fName lName",
       "email" : "test@gmail.com",
       "dob" :"19-06-2000",
-      "password" : "Test@123",
+      "password" : "Test123",
       "status" : "active",
       "token" : "ergthuoikfmhbdbhdf"
     }
