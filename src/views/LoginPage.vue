@@ -49,14 +49,14 @@ export default{
   },
   methods:{
     async submit(){
-      let exist = false;
+      let token = false;
       for (let user of this.users) {
         if(user.email == this.email && user.password == this.password){
-          exist = true;
+          token = user.token;
         }
       }
-      if(exist){
-        console.log("logged in");
+      if(token){
+        localStorage.setItem('token', token);
       }else{
         this.$swal('Invalid credentials.');
       }
