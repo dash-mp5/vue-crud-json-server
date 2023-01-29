@@ -1,5 +1,20 @@
 <template>
   <div>
-    HomePage
+    <v-btn
+      elevation="2"
+      @click="logout()"
+    >
+    logout
+    </v-btn>
   </div>
 </template>
+<script>
+export default{
+  methods:{
+    logout(){
+      localStorage.clear();
+      this.$router.push('/login') 
+    }
+  }
+}
+</script>

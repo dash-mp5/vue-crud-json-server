@@ -9,12 +9,12 @@ const router = new Router({
     mode: "history",
     routes: [
       { 
-        path: '/', 
+        path: '/login', 
         name:"login",
         component: LoginPage 
       },
       {
-        path : "/home",
+        path : "/",
         name: "home",
         component : HomePage,
         meta:{

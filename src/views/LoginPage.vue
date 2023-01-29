@@ -57,6 +57,7 @@ export default{
       }
       if(token){
         localStorage.setItem('token', token);
+      this.$router.push('/') 
       }else{
         this.$swal('Invalid credentials.');
       }
